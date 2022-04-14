@@ -4,7 +4,8 @@
 li {list-style: none;}
 a {text-decoration: none; color: #333;}
 html, body {
-    color: #333;    
+    color: #333;
+    min-width: 1280px;    
 }
 
 /* header */
@@ -139,7 +140,7 @@ header div a {
 .best_v .cont .info ul li a {
     height: 45px;
     line-height: 45px;
-    border: 1px solid rgb(204, 136, 136);
+    border: 1px solid rgb(136, 182, 204);
     box-sizing: border-box;
     display: block;
     padding: 0 25px;
@@ -149,4 +150,228 @@ header div a {
     background-color: aliceblue;
     color: #333;
     border: 0;
+}
+
+.motion {
+    padding: 100px 0;
+}
+.motion .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.motion .title h3 {
+    font-size: 45px;
+}
+.motion .title p {
+    font-size: 20px;
+}
+
+.motion .list {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.motion .list li {
+    cursor: pointer;
+    /* 마우스모양 : 손모양 */
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(255, 196, 196);
+    padding: 0 30px;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+.motion .list li.on{
+    box-shadow:2px 3px 15px rgba(255, 193, 193, 0.473);
+    /* 그림자 : x축 y축 블러 색상 */
+    background-color: rgb(255, 169, 169);
+    color: azure;
+    border: 0;
+}
+
+.motion .motion_cont .list_cont {
+    width: 1280px;
+    margin: 0 auto;
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+}
+.motion .motion_cont .list_cont.on {
+    display: flex;
+}
+
+.motion .motion_cont .list_cont .items {
+    width: 49%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* 유튜브 영상 크기 조절 */
+.youtube {
+    width: 100%;
+}
+.youtube .youtube_in {
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 화면비율 16:9 비율 */
+    position: relative;
+}
+.youtube .youtube_in iframe {
+    /* 화면꽉차게 */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.motion .list_cont .items .info {
+    padding: 30px;  
+}
+.motion .list_cont .items .info h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.motion .list_cont .items .info dl {
+    display: flex;
+    margin-top: 10px;
+}
+
+.motion .list_cont .items .info dl dt {
+    width: 20%;
+    font-weight: bold;
+}
+.motion .list_cont .items .info dl dd:hover a {
+    text-decoration: underline;
+}
+/* g_ver05 */
+.g_ver05 {
+    background-color: rgb(255, 236, 236);
+    padding: 100px 0;
+}
+.g_ver05 .title {
+    text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+.g_ver05 .title h3 {
+    font-size: 45px;
+}
+.g_ver05 .title p {
+    font-size: 20px;
+}
+.g_ver05 .title em {
+    font-size: 13px;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+.g_ver05 .cont {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.g_ver05 .cont .items {
+    width: 49%;
+    background-color: rgb(244, 247, 255);
+    display: flex;
+    align-items: center;
+    /* 한줄일 때 수직정렬 가운데 */
+}
+.g_ver05 .cont .items figure {
+    width: 60%;
+    height: 500px;
+}
+.g_ver05 .cont .items figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.g_ver05 .cont .items .info {
+    width: 40%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.g_ver05 .cont .items .info p {
+    font-size: 14px;
+}
+.g_ver05 .cont .items h4 {
+    font-size: 30px;
+}
+
+/* .about */
+.about {
+    padding: 100px 0;
+}
+.about .cont {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .cont figure {
+    width: 30%;
+    height: 500px;
+}
+.about .cont figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .cont .info {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about .cont .info div {
+    width: 45%;
+    margin: 20px 0;
+}
+.about .cont .info div h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about .cont .info div p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.about .cont .info div dl dt {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about .cont .info div dl dd {
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+footer ul li {
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 50px;
+    margin: 10px auto;
+}
+footer ul li a {
+    color: white;   
+}
+footer ul li:nth-of-type(1) {
+    background-color: #ccc;
+    font-weight: bold;
+}
+footer ul li:nth-of-type(1) a {
+    color: #000;
+}
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(204, 204, 204, 0.377);
 }
