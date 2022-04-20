@@ -287,6 +287,7 @@ header div a {
     background: url('../images/Untitled-5.png') center center / cover no-repeat ;
     background-color: rgb(255, 255, 255);
     padding: 100px 0;
+    background-attachment:fixed;
 }
 .g_ver05 .title {
     text-align: center;
