@@ -2,9 +2,9 @@
 
 * {margin: 0; padding: 0;}
 li {list-style: none;}
-a {text-decoration: none; color: #333;}
+a {text-decoration: none; color: #cc8b49;}
 html, body {
-    color: #333;
+    color: #cc8b49;
     min-width: 1280px;    
 }
 
@@ -12,6 +12,7 @@ html, body {
 header {
     height: 80px;
     line-height: 80px;
+    background-color: #fdd8cf;
 }
 header div {
     width: 1280px;
@@ -21,9 +22,13 @@ header div {
 }
 header div h1 a {
     font-size: 25px;
+    color: #cc8b49;
+    font-family: 'Nanum Myeongjo', serif;
 }
 header div a {
     font-size: 20px;
+    color: #cc8b49;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 /* .main_visual */
@@ -50,44 +55,54 @@ header div a {
     left: 50%;
     top: 0;
     transform: translateX(-50%);
+    font-family: 'Charmonman', cursive;
     /* 변형 : 이동x축-> 본인이 가진 너비의 반만큼 역으로 이동 */
     
-    color: white;
+    color: #e0a5a7;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 .main_visual .title h2 {
     width: 100%;
-    font-size: 60px;
+    font-size: 80px;
 }
 .main_visual .title p {
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 40px;
 }   
 .main_visual .title a {
-    color: white;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    background-color: rgb(255, 196, 196);
+    color: #cc8b49;
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fdd8cf;
     text-align: center;
+}
+.main_visual .title a {
+    font-size: 25px;
 }
 
 /* .best_v */
 .best_v {
     padding: 100px 0;
+    background: url('../images/Untitled-3.png') center center / cover no-repeat ;
+    background-color: #fad9c9;
+    /* background: url('../images/파일명,확장자명'); */
 }
 .best_v .title {
     text-align: center;
     margin-bottom: 40px;
+    color: #cc8b49; 
 }
 .best_v .title h3 {
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
 }
 .best_v .title p {
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 .best_v .cont {
     width: 1280px;
@@ -116,54 +131,66 @@ header div a {
 }
 .best_v .cont .info {
     width: 45%;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 25px;
 }
 .best_v .cont .info h4 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 5px;
+    font-family: 'Gamja Flower', cursive;
 }
 .best_v .cont .info p:nth-of-type(2) {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-family: 'Gamja Flower', cursive;
 }
 .best_v .cont .info dl {
     display: flex;
     margin-bottom: 10px;
+    font-family: 'Gamja Flower', cursive;
 }
 .best_v .cont .info dl dt {
     font-weight: bold;
     width: 100px;
+    font-family: 'Gamja Flower', cursive;
 }
 .best_v .cont .info ul {
     display: flex;
+    font-family: 'Gamja Flower', cursive;
 }
 
 .best_v .cont .info ul li a {
     height: 45px;
     line-height: 45px;
-    border: 1px solid rgb(136, 182, 204);
+    border: 3px solid #fff8f0;
     box-sizing: border-box;
     display: block;
     padding: 0 25px;
     margin-right: 10px;
+    color: #cc8b49;
 }
 .best_v .cont .info ul li:nth-child(1) a {
-    background-color: aliceblue;
-    color: #333;
+    background-color: #fff8f0;
+    color: #cc8b49;
     border: 0;
 }
 
 .motion {
     padding: 100px 0;
+    background: url('../images/Untitled-4.png') center center / cover no-repeat ;
+    background-color: #fff6ed;
 }
 .motion .title {
     text-align: center;
     margin-bottom: 40px;
 }
 .motion .title h3 {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
 }
 .motion .title p {
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .motion .list {
@@ -176,17 +203,20 @@ header div a {
     /* 마우스모양 : 손모양 */
     height: 45px;
     line-height: 45px;
-    border: 1px solid rgb(255, 196, 196);
+    border: 2px solid #fad9c9;
     padding: 0 30px;
     margin: 0 5px;
     box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 28px;
 }
 .motion .list li.on{
     box-shadow:2px 3px 15px rgba(255, 193, 193, 0.473);
     /* 그림자 : x축 y축 블러 색상 */
-    background-color: rgb(255, 169, 169);
-    color: azure;
-    border: 0;
+    background-color: #fad9c9;
+    color: rgb(61, 61, 61);
+    border-radius: 10px;
 }
 
 .motion .motion_cont .list_cont {
@@ -202,7 +232,9 @@ header div a {
 
 .motion .motion_cont .list_cont .items {
     width: 49%;
-    border: 1px solid #ccc;
+    border: 1px solid #fad9c9;
+    background-color: #fad9c9;
+    border-radius: 50px;
     box-sizing: border-box;
 }
 /* 유튜브 영상 크기 조절 */
@@ -225,9 +257,13 @@ header div a {
 }
 .motion .list_cont .items .info {
     padding: 30px;  
+    font-family: 'Gamja Flower', cursive;
+}
+.motion .list_cont .items .info p {
+    font-size: 22px;
 }
 .motion .list_cont .items .info h4 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 .motion .list_cont .items .info dl {
@@ -238,13 +274,18 @@ header div a {
 .motion .list_cont .items .info dl dt {
     width: 20%;
     font-weight: bold;
+    font-size: 25px;
+}
+.motion .list_cont .items .info dl dd {
+    font-size: 25px;
 }
 .motion .list_cont .items .info dl dd:hover a {
     text-decoration: underline;
 }
 /* g_ver05 */
 .g_ver05 {
-    background-color: rgb(255, 236, 236);
+    background: url('../images/Untitled-5.png') center center / cover no-repeat ;
+    background-color: rgb(255, 255, 255);
     padding: 100px 0;
 }
 .g_ver05 .title {
@@ -253,17 +294,20 @@ header div a {
     margin: 0 auto;
 }
 .g_ver05 .title h3 {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
 }
 .g_ver05 .title p {
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 .g_ver05 .title em {
-    font-size: 13px;
+    font-size: 30px;
     text-align: right;
     margin-top: 40px;
     margin-bottom: 10px;
     display: block;
+    font-family: 'Nanum Pen Script', cursive;
 }
 .g_ver05 .cont {
     width: 1280px;
@@ -273,7 +317,6 @@ header div a {
 }
 .g_ver05 .cont .items {
     width: 49%;
-    background-color: rgb(244, 247, 255);
     display: flex;
     align-items: center;
     /* 한줄일 때 수직정렬 가운데 */
@@ -286,6 +329,8 @@ header div a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 45% 45% 10px 10px;
+    
 }
 .g_ver05 .cont .items .info {
     width: 40%;
@@ -293,15 +338,18 @@ header div a {
     box-sizing: border-box;
 }
 .g_ver05 .cont .items .info p {
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
 }
 .g_ver05 .cont .items h4 {
     font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
 }
 
 /* .about */
 .about {
     padding: 100px 0;
+    background-color: #fdd8cf;
 }
 .about .cont {
     width: 1280px;
@@ -330,25 +378,29 @@ header div a {
     margin: 20px 0;
 }
 .about .cont .info div h4 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
+    font-family: 'Patrick Hand', cursive;
 }
 .about .cont .info div p {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 5px;
+    font-family: 'Gamja Flower', cursive;
 }
 .about .cont .info div dl dt {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    font-family: 'Gamja Flower', cursive;
 }
 .about .cont .info div dl dd {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Gamja Flower', cursive;
 }
 footer {
-    background-color: rgb(88, 88, 88);
+    background-color: #fff8f0;
     text-align: center;
-    color: white;
+    color: #cc8b49;
     padding: 100px 0;
 }
 
@@ -356,22 +408,32 @@ footer ul li {
     width: 270px;
     height: 50px;
     line-height: 50px;
-    border: 1px solid rgb(190, 189, 189);
+    border: 1px solid #fdd8cf;
     border-radius: 50px;
     margin: 10px auto;
+    font-family: 'Gamja Flower', cursive;
+}
+footer h3 {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
 }
 footer ul li a {
-    color: white;   
+    color: #cc8b49;   
+    font-family: 'Gamja Flower', cursive;
+    font-size: 22px;
 }
 footer ul li:nth-of-type(1) {
-    background-color: #ccc;
-    font-weight: bold;
+    background-color: #fdd8cf;
+    font-family: 'Gamja Flower', cursive;
 }
 footer ul li:nth-of-type(1) a {
-    color: #000;
+    color: #cc8b49;
+    font-family: 'Gamja Flower', cursive;
 }
 footer p {
     margin-top: 20px;
     font-size: 14px;
-    color: rgba(204, 204, 204, 0.377);
+    color: #cc8b49;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
 }
