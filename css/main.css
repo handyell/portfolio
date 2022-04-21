@@ -120,7 +120,7 @@ section.best_v figure {
     /* 수직가운데 정렬 */
 }
 .best_v .cont .youtube {
-    width: 50%;
+    width: 55%;
 }
 .best_v .cont .youtube .youtube_in {
     width: 100%;
@@ -136,7 +136,7 @@ section.best_v figure {
     left: 0;
 }
 .best_v .cont .info {
-    width: 45%;
+    width: 42%;
     font-family: 'Gamja Flower', cursive;
     font-size: 25px;
 }
@@ -335,7 +335,7 @@ section.best_v figure {
     /* 한줄일 때 수직정렬 가운데 */
 }
 .g_ver05 .cont .items figure {
-    width: 60%;
+    width: 100%;
     height: 500px;
 }
 .g_ver05 .cont .items figure img {
