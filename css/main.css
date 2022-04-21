@@ -87,9 +87,15 @@ header div a {
 /* .best_v */
 .best_v {
     padding: 100px 0;
-    background: url('../images/Untitled-3.png') center center / cover no-repeat ;
+    /* background: url('../images/Untitled-3.png') center center / cover no-repeat ; */
     background-color: #fad9c9;
     /* background: url('../images/파일명,확장자명'); */
+    position: relative;
+}
+section.best_v figure {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
 }
 .best_v .title {
     text-align: center;
@@ -177,9 +183,15 @@ header div a {
 
 .motion {
     padding: 100px 0;
-    background: url('../images/Untitled-4.png') center center / cover no-repeat ;
+    /* background: url('../images/Untitled-4.png') center center / cover no-repeat ; */
     background-color: #fff6ed;
+    /* position: relative; */
 }
+/* section.motion figure { */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: -45px; */
+/* } */
 .motion .title {
     text-align: center;
     margin-bottom: 40px;
@@ -500,4 +512,37 @@ footer p {
     body {
         overflow-x: hidden;
     }
+    
 }/*해상도 960px 이하 */
+@media screen and (max-width:640px) {
+    section .title h3 {
+        font-size: 30px;
+    }
+    .main_visual .title h2 {
+        font-size: 35px !important;
+    }
+    section .title p {
+        font-size: 16px !important;
+    }
+    section .info h4 {
+        font-size: 22px !important;
+    }
+    .motion .list_cont .items .info {
+        padding: 15px;
+    }
+    .motion .list_cont .items .info dl dt {
+        width: 30%;
+    }
+    .motion .list_cont .items .info dl dd {
+        width: 60%;
+        word-break: break-all;
+        /* 줄바꿈 : 글자별 */
+    }
+    .g_ver05 .cont .items figure {
+        height: 300px;
+    }
+    .about .cont .info div h4 {margin-bottom: 10px;}
+    .about .cont .info div p {font-size: 16px;}
+    .about .cont .info div dl dt {font-size: 16px;}
+    .about .cont .info div dl dd {font-size: 16px;}
+}/*해상도 640px 이하*/
