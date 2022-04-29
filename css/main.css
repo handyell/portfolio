@@ -79,6 +79,7 @@ header div a {
     line-height: 60px;
     background-color: #fdd8cf;
     text-align: center;
+    display: block;
 }
 .main_visual .title a {
     font-size: 25px;
@@ -246,7 +247,8 @@ section.best_v figure {
     width: 49%;
     border: 1px solid #fad9c9;
     background-color: #fad9c9;
-    border-radius: 50px;
+    border-radius: 60px;
+    overflow: hidden;
     box-sizing: border-box;
 }
 /* 유튜브 영상 크기 조절 */
