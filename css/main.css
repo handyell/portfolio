@@ -158,8 +158,12 @@ section.best_v figure {
 }
 .best_v .cont .info dl dt {
     font-weight: bold;
-    width: 100px;
+    width: 20%;
     font-family: 'Gamja Flower', cursive;
+}
+.best_v .cont .info dl dd {
+    width: 80%;
+    word-break: keep-all;
 }
 .best_v .cont .info ul {
     display: flex;
@@ -292,9 +296,14 @@ section.best_v figure {
 }
 .motion .list_cont .items .info dl dd {
     font-size: 25px;
+    width: 80%;
+    word-break: keep-all;
 }
 .motion .list_cont .items .info dl dd:hover a {
     text-decoration: underline;
+}
+i {
+    vertical-align: middle;
 }
 /* g_ver05 */
 .g_ver05 {
