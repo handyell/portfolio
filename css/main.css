@@ -150,6 +150,8 @@ section.best_v figure {
     margin-top: 20px;
     margin-bottom: 30px;
     font-family: 'Gothic A1', sans-serif;
+    text-align: justify;
+    font-size: 22px;
 }
 .best_v .cont .info dl {
     display: flex;
@@ -158,6 +160,7 @@ section.best_v figure {
 }
 .best_v .cont .info p {
     font-family: 'Gothic A1', sans-serif;
+    font-size: 22px;
 }
 .best_v .cont .info dl dt {
     font-weight: bold;
@@ -281,8 +284,9 @@ section.best_v figure {
     font-family: 'Gamja Flower', cursive;
 }
 .motion .list_cont .items .info p {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Gothic A1', sans-serif;
+    text-align: justify;
 }
 .motion .list_cont .items .info h4 {
     font-size: 35px;
