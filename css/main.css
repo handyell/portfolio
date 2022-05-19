@@ -4,7 +4,7 @@
 li {list-style: none;}
 a {text-decoration: none; color: #cc8b49;}
 html, body {
-    color: #cc8b49;
+    color: #865626;
     /* min-width: 1280px;     */
 }
 
@@ -101,7 +101,7 @@ section.best_v figure {
 .best_v .title {
     text-align: center;
     margin-bottom: 40px;
-    color: #cc8b49; 
+    color: #865626; 
 }
 .best_v .title h3 {
     font-size: 60px;
@@ -149,12 +149,15 @@ section.best_v figure {
 .best_v .cont .info p:nth-of-type(2) {
     margin-top: 20px;
     margin-bottom: 30px;
-    font-family: 'Gamja Flower', cursive;
+    font-family: 'Gothic A1', sans-serif;
 }
 .best_v .cont .info dl {
     display: flex;
     margin-bottom: 10px;
     font-family: 'Gamja Flower', cursive;
+}
+.best_v .cont .info p {
+    font-family: 'Gothic A1', sans-serif;
 }
 .best_v .cont .info dl dt {
     font-weight: bold;
@@ -178,11 +181,11 @@ section.best_v figure {
     display: block;
     padding: 0 25px;
     margin-right: 10px;
-    color: #cc8b49;
+    color: #865626;
 }
 .best_v .cont .info ul li:nth-child(1) a {
     background-color: #fff8f0;
-    color: #cc8b49;
+    color: #865626;
     border: 0;
 }
 
@@ -279,6 +282,7 @@ section.best_v figure {
 }
 .motion .list_cont .items .info p {
     font-size: 22px;
+    font-family: 'Gothic A1', sans-serif;
 }
 .motion .list_cont .items .info h4 {
     font-size: 35px;
@@ -301,6 +305,9 @@ section.best_v figure {
 }
 .motion .list_cont .items .info dl dd:hover a {
     text-decoration: underline;
+}
+.motion .list_cont .items .info dl dd a{
+    color: #865626;
 }
 i {
     vertical-align: middle;
@@ -364,10 +371,12 @@ i {
 .g_ver05 .cont .items .info p {
     font-size: 20px;
     font-family: 'Gamja Flower', cursive;
+    color: #865626;
 }
 .g_ver05 .cont .items h4 {
     font-size: 30px;
     font-family: 'Gamja Flower', cursive;
+    color: #865626;
 }
 
 /* .about */
@@ -411,6 +420,9 @@ i {
     margin-bottom: 5px;
     font-family: 'Gamja Flower', cursive;
 }
+.about .cont .info div p a {
+    color: #865626;
+}
 .about .cont .info div dl dt {
     margin-bottom: 5px;
     font-size: 25px;
@@ -442,7 +454,7 @@ footer h3 {
     font-size: 20px;
 }
 footer ul li a {
-    color: #cc8b49;   
+    color: ;   
     font-family: 'Gamja Flower', cursive;
     font-size: 22px;
 }
